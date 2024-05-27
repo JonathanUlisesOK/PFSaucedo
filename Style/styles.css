@@ -17,19 +17,60 @@ body { /* TIPOGRAFIA  */
 }
 
 /* NAVEGADORES */
-.navegadores {
+/* .navegadores {
     float: right;
     margin: 10px ;
     text-decoration: none;
-    background-color: rgb(170, 168, 168);
     font-size: 20px;
     color: black;
     margin-top: 30px;
+} */
+
+
+nav {
+    background-color:rgb(202, 42, 42) ;
+}
+
+
+nav div ul li {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-nav {
+text-decoration: none;
+}
+
+
+.nav-item {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+#opciones {
+    color: #ffffff;
+
+}
+
+.carousel-inner {
+    height: 600px;
+
+}
+
+h3 {
+    font-size: 25px;
+    color: black;
+}
+.descripcion {
+    font-size: 25px;
+    color: black;
 }
 
 /* CONTENIDO INDEX */
 
-.img-index {
+/* .img-index {
     width: 500px;
     height: 500px;
     display: flex;
@@ -57,19 +98,24 @@ h4 {
     font-size: 30px;
     justify-content: center;
     display: flex;
-}
+} */
 
 
 /* INICIO SESION FORM */
 
+.container {
+    justify-items: center;
+}
+
 .iniciosesioncont {
-    display: inline-block;
-    justify-content: center;
+    display: flex;
+    align-items: center;
     border-style: solid;
     margin-top: 90px;
     margin-bottom: 90px;
-    margin-left: 775px;
-    margin-right: 700px;
+    width: 600px;
+    height: 400px;
+    font-size: 20px
 }
 
 
@@ -80,6 +126,7 @@ h4 {
     margin-left: 770px;
     margin-right: 700px;
     margin-top: 150px;
+    margin-bottom: 150px;
     border-style: double;
 }
 .carritoitem1 {
@@ -141,6 +188,8 @@ h4 {
     margin-bottom: 90px;
     margin-left: 775px;
     margin-right: 700px;
+    width: 300px;
+    height: 300px;
 }
 
 /* DISEÑO DE FOOTER */
@@ -158,5 +207,12 @@ footer {
     display: flex;
     gap: 20px;
     justify-content: center;
+    
+    
+}
+
+
+@media screen {max-width: ;
+
     
 }
