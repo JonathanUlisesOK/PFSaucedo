@@ -1,0 +1,162 @@
+@font-face { /* NUEVA FUENTE PARA PAGINA */
+    font-family:"street font" ;
+    src: url(./../Assets/Fonts/BebasNeue-Regular.ttf);
+}
+
+body { /* TIPOGRAFIA  */
+    font-family: "street font";
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* ENCABEZADO */
+.encabezado {
+    text-align: center;
+    color:rgb(255, 255, 255) ;
+    background-color: rgb(202, 42, 42);
+}
+
+/* NAVEGADORES */
+.navegadores {
+    float: right;
+    margin: 10px ;
+    text-decoration: none;
+    background-color: rgb(170, 168, 168);
+    font-size: 20px;
+    color: black;
+    margin-top: 30px;
+}
+
+/* CONTENIDO INDEX */
+
+.img-index {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.content-img {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+.info-item {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price-item {
+    display: flex;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+h4 {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* INICIO SESION FORM */
+
+.iniciosesioncont {
+    display: inline-block;
+    justify-content: center;
+    border-style: solid;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 775px;
+    margin-right: 700px;
+}
+
+
+/* CARRITO ITEMS */
+
+.carrito {
+    
+    margin-left: 770px;
+    margin-right: 700px;
+    margin-top: 150px;
+    border-style: double;
+}
+.carritoitem1 {
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.textcarrito {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.comprar {
+    display: flex;
+    margin: auto;
+}
+
+
+
+/* ITEM 1 */
+
+.imgitem1 {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin-left: 750px;
+    margin-right: auto;
+}
+.textitem {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.item1select {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.boton-agcarrito {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* REGISTRO */
+
+.registrocont {
+    display: inline-block;
+    justify-content: center;
+    border-style: solid;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 775px;
+    margin-right: 700px;
+}
+
+/* DISEÑO DE FOOTER */
+
+footer div {
+    display: block;
+    border-style: double;
+    width: 400px;
+    height: 250px;
+    font-size: 19px;
+}
+
+footer {
+    margin-bottom: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
