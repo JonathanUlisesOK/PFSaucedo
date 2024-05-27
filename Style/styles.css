@@ -14,17 +14,13 @@ body { /* TIPOGRAFIA  */
     text-align: center;
     color:rgb(255, 255, 255) ;
     background-color: rgb(202, 42, 42);
+    width: auto;
+    display: block
 }
 
-/* NAVEGADORES */
-/* .navegadores {
-    float: right;
-    margin: 10px ;
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    margin-top: 30px;
-} */
+.container-gral {
+    width: 100%;
+}
 
 
 nav {
@@ -55,7 +51,7 @@ text-decoration: none;
 }
 
 .carousel-inner {
-    height: 600px;
+    height: auto;
 
 }
 
@@ -68,43 +64,13 @@ h3 {
     color: black;
 }
 
-/* CONTENIDO INDEX */
-
-/* .img-index {
-    width: 500px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-}
-.content-img {
-    display: flex;
-    justify-content: center;
-    margin-left: 200px;
-}
-.info-item {
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-}
-.price-item {
-    display: flex;
-    text-decoration: none;
-    font-size: 40px;
-    color: black;
-    text-align: center;
-    justify-content: center;
-}
-h4 {
-    font-size: 30px;
-    justify-content: center;
-    display: flex;
-} */
-
 
 /* INICIO SESION FORM */
 
-.container {
-    justify-items: center;
+.container-sesion {
+    display: flex;
+    justify-content: center;
+    
 }
 
 .iniciosesioncont {
@@ -113,8 +79,8 @@ h4 {
     border-style: solid;
     margin-top: 90px;
     margin-bottom: 90px;
-    width: 600px;
-    height: 400px;
+    width: 60%;
+    height: 60%;
     font-size: 20px
 }
 
@@ -211,8 +177,24 @@ footer {
     
 }
 
+/* MEDIA QUERIES */
 
-@media screen {max-width: ;
+@media (max-width: 576px) {
+    header {
+        margin:auto;
+        height: auto;
 
+    }
     
+    .container {
+        display: block;
+        justify-items: center;
+
+    }
+
+    footer {
+        display: block;
+        justify-content: center;
+    }
+
 }
