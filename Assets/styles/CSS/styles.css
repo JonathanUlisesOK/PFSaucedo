@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@font-face { /* NUEVA FUENTE PARA PAGINA */
+  font-family: "street font";
+  src: url(./../../Fonts/BebasNeue-Regular.ttf);
+}
+body { /* TIPOGRAFIA  */
+  font-family: "street font";
+  background-color: rgb(255, 255, 255);
+}
+
+/* ENCABEZADO */
+.encabezado {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(202, 42, 42);
+  width: auto;
+  display: block;
+}
+
+.radialheader {
+  background-image: radial-gradient(circle, rgba(158, 131, 133, 0.349), rgb(102, 102, 102));
+}
+
+.container-gral {
+  width: 100%;
+}
+
+nav {
+  background-color: rgb(202, 42, 42);
+}
+
+nav div ul li {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  text-decoration: none;
+}
+
+.nav-item {
+  list-style: none;
+  display: inline-block;
+}
+
+#opciones {
+  color: #ffffff;
+}
+
+.carousel-inner {
+  height: auto;
+}
+
+h3 {
+  font-size: 25px;
+  color: black;
+}
+
+.descripcion {
+  font-size: 25px;
+  color: black;
+}
+
+img:hover {
+  scale: 1.3;
+  transition: 0.75s;
+}
+
+/* INICIO SESION FORM */
+.container-sesion {
+  display: flex;
+  justify-content: center;
+}
+
+.iniciosesioncont {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  width: 60%;
+  height: 60%;
+  font-size: 20px;
+}
+
+/* CARRITO ITEMS */
+.carrito {
+  margin-left: 770px;
+  margin-right: 700px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  border-style: double;
+  width: 30%;
+  height: 30%;
+}
+
+.carritoitem1 {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.textcarrito {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.comprar {
+  display: flex;
+  margin: auto;
+}
+
+/* ITEM 1 */
+.imgitem1 {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin-left: 750px;
+  margin-right: auto;
+}
+
+.textitem {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.item1select {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.boton-agcarrito {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* REGISTRO */
+.registrocont {
+  display: flex;
+  justify-items: center;
+  border-style: solid;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  height: 70%;
+  align-items: center;
+}
+
+/* DISEÑO DE FOOTER */
+footer div {
+  display: block;
+  border-style: double;
+  width: 400px;
+  height: 250px;
+  font-size: 19px;
+}
+
+footer {
+  margin-bottom: 100px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 576px) {
+  header {
+    margin: auto;
+    height: auto;
+  }
+  .container {
+    display: block;
+    justify-items: center;
+  }
+  footer {
+    display: block;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
